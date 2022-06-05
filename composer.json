@@ -1,0 +1,26 @@
+{
+  "name": "upproject/composer",
+  "description": "Belajar PHP Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Upproject\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Engka Umar"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/manawalab/belajar-composer-hello"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "uproject/library": "2.0",
+    "monolog/monolog": "2.2.0"
+  }
+}
